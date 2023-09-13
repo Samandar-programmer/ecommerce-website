@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <title>Ecommerce Website</title>
+  </head>
+  <body>
+    
+    <header class="header">
+      <div class="top-header-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <div class="top-header-left">
+                <a href="tel:+998994345262">+998994345262</a>
+                <a href="#">Our location</a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="top-header-center">
+                <a href="#">
+                  Super Value Deals - Save more with coupons
+                </a>
+              </div>
+            </div>
+            <div class="col-3">
+              <div>
+                <a href="#">Log In</a>/<a href="#">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-1">
+              <div class="logo">
+                <img src="/assets/img/logo.svg" alt="">
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="menu-container">
+                <a href="index.html" class="menu active">Home</a>
+                <a href="shop.html" class="menu">Shop</a>
+                <a href="accounts.html" class="menu">My Account</a>
+                <a href="compare.html" class="menu">Compare</a>
+                <a href="login-register.html" class="menu">Login</a>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="search-container">
+                <div class="search">
+                  <input type="text" placeholder="Search for items..." class="form-search">
+                  <button class="search-btn">
+                    <img src="/assets/img/search.png" alt="">
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="header-actions">
+                <div class="header-action">
+                  <a href="wishlist.html">
+                    <img src="/assets/img/icon-heart.svg" alt="" class="icon">
+                  </a>
+                  <div class="pro-count">4</div>
+                </div>
+                <div class="header-action">
+                  <a href="cart.html">
+                    <img src="/assets/img/icon-cart.svg" alt="" class="icon">
+                  </a>
+                  <div class="pro-count">2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <section class="breadcrumb-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>
+                  <i class="fi fi-rr-angle-small-right"></i>
+                </span>
+                Shop
+                <span>
+                  <i class="fi fi-rr-angle-small-right"></i>
+                </span>
+                Cart
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CART ===============-->
+      <section class="cart-section">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <table class="cart-table">
+                <thead>
+                  <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    <th>Remove</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="image">
+                      <img src="/assets/img/product-1-1.jpg" alt="">
+                    </td>
+                    <td class="product-desc">
+                      <p class="product-name">
+                        J.Crew Mercantile Women's Short-Sleeve
+                      </p>
+                      <h6>
+                        Maboriosam in a tonto nesciung eget
+                        <br>
+                        distingy magndapibus.
+                      </h6>
+                    </td>
+                    <td class="cart-price">$65.00</td>
+                    <td class="details-actions">
+                      <input type="number" class="quantity" value="1">
+                    </td>
+                    <td class="subtotal">
+                      $65.00
+                    </td>
+                    <td class="remove">
+                      <button class="remove-btn">
+                        <i class="fi-rs-trash"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                      <div class="secondary-btn-container">
+                        <a href="#" class="secondary-btn">
+                          Continue Shopping
+                          <i class="fi-rs-shopping-bag ml-5"></i>
+                        </a>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-7">
+              <div class="row">
+                <div class="col email-icon-container">
+                  <img src="/assets/img/icon-email.svg" alt="" class="icon-email">
+                  <h5>Sign up to Newsletter</h5>
+                </div>
+                <div class="col">
+                  <p>...and receive $25 coupon for first shopping.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <form action="" class="form">
+                <input type="email" placeholder="Enter your email" class="email">
+                <input type="submit" class="submit" value="Subscribe">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="widget-container">
+              <div class="logo">
+                <img src="/assets/img/logo.svg" alt="">
+              </div>
+              <div class="product-type">
+                Contact
+              </div>
+              <div class="widget-about">
+                <div class="widget"><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</div>
+                <div class="widget"><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 678</div>
+                <div class="widget"><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</div>
+              </div>
+              <div class="social-media">
+                <div class="product-type">Follow Us</div>
+                <div class="social-media-container">
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-facebook.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-twitter.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-instagram.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-pinterest.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-youtube.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="footer-list-header">
+              About
+            </div>
+            <div class="footer-list-container">
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">About Us</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Delivery Information</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Privacy Policy</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Terms & Conditions</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Contact Us</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Support Center</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="footer-list-header">
+              My Account
+            </div>
+            <div class="footer-list-container">
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Sign In</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">View Cart</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">My Wishlist</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Track My Order</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Help</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Order</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="footer-list-header">
+              Install App
+            </div>
+            <p class="footer-text">From App Store or Google Play</p>
+            <div class="apps">
+              <a href="#" class="app">
+                <img src="/assets/img/app-store.jpg" alt="">
+              </a>
+              <a href="#" class="app">
+                <img src="/assets/img/google-play.jpg" alt="">
+              </a>
+            </div>
+            <p class="footer-text">Secured Payment Gateways</p>
+            <img src="/assets/img/payment-method.png" alt="" class="payment-img">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src=""></script>
+  </body>
+</html>

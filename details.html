@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <title>Ecommerce Website</title>
+    
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-header-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <div class="top-header-left">
+                <a href="tel:+998994345262">+998994345262</a>
+                <a href="#">Our location</a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="top-header-center">
+                <a href="#">
+                  Super Value Deals - Save more with coupons
+                </a>
+              </div>
+            </div>
+            <div class="col-3">
+              <div>
+                <a href="#">Log In</a>/<a href="#">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-1">
+              <div class="logo">
+                <img src="/assets/img/logo.svg" alt="">
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="menu-container">
+                <a href="index.html" class="menu active">Home</a>
+                <a href="shop.html" class="menu">Shop</a>
+                <a href="accounts.html" class="menu">My Account</a>
+                <a href="compare.html" class="menu">Compare</a>
+                <a href="login-register.html" class="menu">Login</a>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="search-container">
+                <div class="search">
+                  <input type="text" placeholder="Search for items..." class="form-search">
+                  <button class="search-btn">
+                    <img src="/assets/img/search.png" alt="">
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="header-actions">
+                <div class="header-action">
+                  <a href="wishlist.html">
+                    <img src="/assets/img/icon-heart.svg" alt="" class="icon">
+                  </a>
+                  <div class="pro-count">4</div>
+                </div>
+                <div class="header-action">
+                  <a href="cart.html">
+                    <img src="/assets/img/icon-cart.svg" alt="" class="icon">
+                  </a>
+                  <div class="pro-count">2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <section class="breadcrumb-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>
+                  <i class="fi fi-rr-angle-small-right"></i>
+                </span>
+                Fashion
+                <span>
+                  <i class="fi fi-rr-angle-small-right"></i>
+                </span>
+                 Abstract Print Patchwork Dress
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== DETAILS ===============-->
+      <section class="details">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="bg-shadow"></div>
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/img/product-1-1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/product-1-2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/product-2-1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/product-2-2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/product-3-1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/img/product-3-2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="detail-info">
+                <div class="title-detail">
+                  Henley Shirt
+                </div>
+                <div class="product-brand">
+                  Brands: <span>adidas</span>
+                </div>
+                <div class="price">
+                  <div class="current-price">116$</div>
+                  <div class="last-price">200$</div>
+                  <div class="save-price">25% Off</div>
+                </div>
+                <p class="detail-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam unde ab neque eveniet non fuga, suscipit vel quasi dolorem. Ducimus a omnis eum aliquam exercitationem cum fuga, magni obcaecati asperiores!
+                </p>
+                <div class="product-sort-info">
+                  <ul>
+                    <li class="mb-2">
+                      <i class="fi fi-rs-crown"></i>
+                      1 Year AL Jazeera Brand Warranty
+                    </li>
+                    <li class="mb-2">
+                      <i class="fi fi-rs-refresh"></i>
+                      30 Day Return Policy
+                    </li>
+                    <li>
+                      <i class="fi fi-rs-credit-card"></i>
+                      Cash on Delivery available
+                    </li>
+                  </ul>
+                </div>
+                <div class="details-color">
+                  <ul>
+                    <li>
+                      Color: 
+                    </li>
+                    <li>
+                      <button class="color" style="background-color: #ff596d;"></button>
+                    </li>
+                    <li>
+                      <button class="color" style="background-color: #ffdb33;"></button>
+                    </li>
+                    <li>
+                      <button class="color" style="background-color: #ddd;"></button>
+                    </li>
+                    <li>
+                      <button class="color" style="background-color: #ffbb51;"></button>
+                    </li>
+                    <li>
+                      <button class="color" style="background-color: #80e6ff;"></button>
+                    </li>
+                    <li>
+                      <button class="color" style="background-color: #38cf46;"></button>
+                    </li>
+                    <li>
+                      <button class="color" style="background-color: #ff8ff8;"></button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="details-size">
+                  <ul>
+                    <li>Size</li>
+                    <li>
+                      <a href="#">S</a>
+                    </li>
+                    <li>
+                      <a href="#">M</a>
+                    </li>
+                    <li>
+                      <a href="#">L</a>
+                    </li>
+                    <li>
+                      <a href="#">XL</a>
+                    </li>
+                    <li>
+                      <a href="#">XXL</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="details-actions">
+                  <input type="number" class="quantity" value="3">
+                  <div class="secondary-btn-container">
+                    <a href="#" class="secondary-btn">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== DETAILS TAB ===============-->
+      <section class="details-tab">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <div class="nav-item">
+                  <button class="nav-link active nav-link" id="nav-description-tab" data-bs-toggle="tab" data-bs-target="#nav-description" type="button" role="tab" aria-controls="nav-description" aria-selected="true">Description</button>
+                </div>
+                <div class="nav-item">
+                  <button class="nav-link nav-link" id="nav-info-tab" data-bs-toggle="tab" data-bs-target="#nav-info" type="button" role="tab" aria-controls="nav-info" aria-selected="false">Additional Info</button>
+                </div>
+                <div class="nav-item">
+                  <button class="nav-link nav-link" id="nav-new-tab" data-bs-toggle="tab" data-bs-target="#nav-new" type="button" role="tab" aria-controls="nav-new" aria-selected="false">New added</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-description" role="tabpanel" aria-labelledby="nav-description-tab" tabindex="0">
+              <div class="row">
+                <div class="col">
+                  <div class="description my-5">
+                    Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.
+                    <br>
+                    <br>
+                    Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped besides and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.
+                  </div>
+                  <div class="product-more-info">
+                    <ul>
+                      <li>
+                        <span>Type Of Packing</span>
+                        Bottle
+                      </li>
+                      <li>
+                        <span>Color</span>
+                        Green, Pink, Powder Blue, Purple
+                      </li>
+                      <li>
+                        <span>Quantity Per Case</span>
+                        100ml
+                      </li>
+                      <li>
+                        <span>Ethyl Alcohol</span>
+                        70%
+                      </li>
+                      <li>
+                        <span>Piece In One</span>
+                        Carton
+                      </li>
+                    </ul>
+                  </div>
+                  <hr>
+                  <div class="description mb-4">
+                    Laconic overheard dear woodchuck wow this outrageously taut beaver hey hello far meadowlark imitatively egregiously hugged that yikes minimally unanimous pouted flirtatiously as beaver beheld above forward energetic across this jeepers beneficently cockily less a the raucously that magic upheld far so the this where crud then below after jeez enchanting drunkenly more much wow callously irrespective limpet.
+                  </div>
+                  <h4>Packaging & Delivery</h4>
+                  <hr>
+                  <div class="description">
+                    Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly.
+                    <br>
+                    <br>
+                    Scallop or far crud plain remarkably far by thus far iguana lewd precociously and and less rattlesnake contrary caustic wow this near alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show" id="nav-info" role="tabpanel" aria-labelledby="nav-info-tab" tabindex="0">
+                <div class="row">
+                  <div class="col">
+                    <table class="mt-5">
+                      <tbody>
+                        <tr class="stand-up">
+                          <th>Stand Up</th>
+                          <td>
+                            <p>35″L x 24″W x 37-45″H(front to back wheel)</p>
+                          </td>
+                        </tr>
+                        <tr class="folded-wo-wheels">
+                          <th>Folded (w/o wheels)</th>
+                          <td>
+                            <p>32.5″L x 18.5″W x 16.5″H</p>
+                          </td>
+                        </tr>
+                        <tr class="folded-w-wheels">
+                          <th>Folded (w/ wheels)	</th>
+                          <td>
+                            <p>32.5″L x 24″W x 18.5″H</p>
+                          </td>
+                        </tr>
+                        <tr class="door-pass-through">
+                          <th>Door Pass Through</th>
+                          <td>
+                            <p>24</p>
+                          </td>
+                        </tr>
+                        <tr class="frame">
+                          <th>Frame</th>
+                          <td>
+                            <p>Aluminum</p>
+                          </td>
+                        </tr>
+                        <tr class="weight-wo-wheels">
+                          <th>Weight (w/o wheels)</th>
+                          <td>
+                            <p>20 LBS</p>
+                          </td>
+                        </tr>
+                        <tr class="weight-capacity">
+                          <th>Weight Capacity</th>
+                          <td>
+                            <p>60 LBS</p>
+                          </td>
+                        </tr>
+                        <tr class="width">
+                          <th>Width</th>
+                          <td>
+                            <p>24″</p>
+                          </td>
+                        </tr>
+                        <tr class="handle-height-ground-to-handle">
+                          <th>Handle height (ground to handle)</th>
+                          <td>
+                            <p>37-45″</p>
+                          </td>
+                        </tr>
+                        <tr class="wheels">
+                          <th>Wheels</th>
+                          <td>
+                            <p>12″ air / wide track slick tread</p>
+                          </td>
+                        </tr>
+                        <tr class="seat-back-height">
+                          <th>Seat back height</th>
+                          <td>
+                            <p>21.5″</p>
+                          </td>
+                        </tr>
+                        <tr class="head-room-inside-canopy">
+                          <th>Head room (inside canopy)</th>
+                          <td>
+                            <p>25″</p>
+                          </td>
+                        </tr>
+                        <tr class="pa_color">
+                          <th>Color</th>
+                          <td>
+                            <p>Black, Blue, Red, White</p>
+                          </td>
+                        </tr>
+                        <tr class="pa_size">
+                          <th>Size</th>
+                          <td>
+                            <p>M, S</p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show" id="nav-new" role="tabpanel" aria-labelledby="nav-new-tab" tabindex="0">
+                <div class="row">
+                  <div class="col">
+                    <div class="review-wrapper">
+                      <h4 class="tab-content-header mt-5">Customer questions & answers</h4>
+                      <div class="review-container">
+                        <div class="review">
+                          <div class="user">
+                            <div class="user-image">
+                              <img src="/assets/img/avatar-1.jpg" alt="">
+                            </div>
+                            <div class="user-name">Jacky Chan</div>
+                            <p>Since 2012</p>
+                          </div>
+                          <div class="user-desc">
+                            <div class="product-rating">
+                              <div class="rating-stars">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                              </div>
+                            </div>
+                            <p>Thank you very fast shipping from Poland only 3days.</p>
+                            <div class="date-container">
+                              <div class="date">
+                                December 4, 2020 at 3:12 pm
+                              </div>
+                              <a href="#">
+                                Reply
+                                <i class="fi-rs-arrow-right"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="review">
+                          <div class="user">
+                            <div class="user-image">
+                              <img src="/assets/img/avatar-1.jpg" alt="">
+                            </div>
+                            <div class="user-name">Jacky Chan</div>
+                            <p>Since 2012</p>
+                          </div>
+                          <div class="user-desc">
+                            <div class="product-rating">
+                              <div class="rating-stars">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                              </div>
+                            </div>
+                            <p>Thank you very fast shipping from Poland only 3days.</p>
+                            <div class="date-container">
+                              <div class="date">
+                                December 4, 2020 at 3:12 pm
+                              </div>
+                              <a href="#">
+                                Reply
+                                <i class="fi-rs-arrow-right"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="review">
+                          <div class="user">
+                            <div class="user-image">
+                              <img src="/assets/img/avatar-1.jpg" alt="">
+                            </div>
+                            <div class="user-name">Jacky Chan</div>
+                            <p>Since 2012</p>
+                          </div>
+                          <div class="user-desc">
+                            <div class="product-rating">
+                              <div class="rating-stars">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                              </div>
+                            </div>
+                            <p>Thank you very fast shipping from Poland only 3days.</p>
+                            <div class="date-container">
+                              <div class="date">
+                                December 4, 2020 at 3:12 pm
+                              </div>
+                              <a href="#">
+                                Reply
+                                <i class="fi-rs-arrow-right"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="mt-5">
+                    <div class="add-rating-wrap">
+                      <h4 class="tab-content-header">Add a review</h4>
+                      <div class="add-rating">
+                        <input type="radio" name="ratingname" id="rating1">
+                        <label for="rating1"><i class="fi fi-rs-star"></i></label>
+                        <input type="radio" name="ratingname" id="rating2">
+                        <label for="rating2"><i class="fi fi-rs-star"></i></label>
+                        <input type="radio" name="ratingname" id="rating3">
+                        <label for="rating3"><i class="fi fi-rs-star"></i></label>
+                        <input type="radio" name="ratingname" id="rating4">
+                        <label for="rating4"><i class="fi fi-rs-star"></i></label>
+                        <input type="radio" name="ratingname" id="rating5">
+                        <label for="rating5"><i class="fi fi-rs-star"></i></label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <form action="" class="contact-form">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="textarea-wrap">
+                        <textarea class="textarea" name="comment" id="comment" cols="30" rows="9" placeholder="Write Comment"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="contact-input-wrap">
+                        <div class="contact-input">
+                          <input type="text" name="name">
+                        </div>
+                        <div class="contact-input">
+                          <input type="email" name="email">
+                        </div>
+                        <div class="contact-input" style="width: 100%;">
+                          <input type="website" name="website">
+                        </div>
+                        <div class="secondary-btn-container">
+                          <input type="submit" name="submit" class="secondary-btn" value="Submit Review"></input>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PRODUCTS ===============-->
+      <section class="products"></section>
+
+      <section class="newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-7">
+              <div class="row">
+                <div class="col email-icon-container">
+                  <img src="/assets/img/icon-email.svg" alt="" class="icon-email">
+                  <h5>Sign up to Newsletter</h5>
+                </div>
+                <div class="col">
+                  <p>...and receive $25 coupon for first shopping.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <form action="" class="form">
+                <input type="email" placeholder="Enter your email" class="email">
+                <input type="submit" class="submit" value="Subscribe">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="widget-container">
+              <div class="logo">
+                <img src="/assets/img/logo.svg" alt="">
+              </div>
+              <div class="product-type">
+                Contact
+              </div>
+              <div class="widget-about">
+                <div class="widget"><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</div>
+                <div class="widget"><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 678</div>
+                <div class="widget"><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</div>
+              </div>
+              <div class="social-media">
+                <div class="product-type">Follow Us</div>
+                <div class="social-media-container">
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-facebook.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-twitter.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-instagram.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-pinterest.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-youtube.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="footer-list-header">
+              About
+            </div>
+            <div class="footer-list-container">
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">About Us</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Delivery Information</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Privacy Policy</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Terms & Conditions</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Contact Us</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Support Center</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="footer-list-header">
+              My Account
+            </div>
+            <div class="footer-list-container">
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Sign In</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">View Cart</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">My Wishlist</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Track My Order</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Help</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Order</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="footer-list-header">
+              Install App
+            </div>
+            <p class="footer-text">From App Store or Google Play</p>
+            <div class="apps">
+              <a href="#" class="app">
+                <img src="/assets/img/app-store.jpg" alt="">
+              </a>
+              <a href="#" class="app">
+                <img src="/assets/img/google-play.jpg" alt="">
+              </a>
+            </div>
+            <p class="footer-text">Secured Payment Gateways</p>
+            <img src="/assets/img/payment-method.png" alt="" class="payment-img">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="/assets/js/bootstrap.js"></script>
+    
+  </body>
+</html>

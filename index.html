@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <title>Ecommerce Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-header-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-8">
+              <div class="top-header-left">
+                <a href="tel:+998994345262">+998994345262</a>
+                <a href="#">Our location</a>
+              </div>
+            </div>
+            <div class="col-xl-6 d-none d-xl-block">
+              <div class="top-header-center">
+                <a href="#">
+                  Super Value Deals - Save more with coupons
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-3 col-4">
+              <div>
+                <a href="#">Log In</a>/<a href="#">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-4 mb-3 mb-lg-0">
+              <div class="logo">
+                <img src="/assets/img/logo.svg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-4 col-8 mb-3 mb-lg-0">
+              <div class="menu-container">
+                <a href="index.html" class="menu active">Home</a>
+                <a href="shop.html" class="menu">Shop</a>
+                <a href="about.html" class="menu">About</a>
+                <a href="contact.html" class="menu">Contact</a>
+              </div>
+            </div>
+            <div class="col-lg-5 col-10">
+              <div class="search-container">
+                <div class="search">
+                  <input type="text" placeholder="Search for items..." class="form-search">
+                  <button class="search-btn">
+                    <img src="/assets/img/search.png" alt="">
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-1 col-2">
+              <div class="header-actions">
+                <div class="header-action">
+                  <a href="wishlist.html">
+                    <img src="/assets/img/icon-heart.svg" alt="" class="icon">
+                  </a>
+                  <div class="pro-count">4</div>
+                </div>
+                <div class="header-action">
+                  <a href="cart.html">
+                    <img src="/assets/img/icon-cart.svg" alt="" class="icon">
+                  </a>
+                  <div class="pro-count">2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <!-- <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div> -->
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                    <div>
+                      <h4>Upcoming Offer</h4>
+                      <h1 class="fw-boldest">Big Deal From</h1>
+                      <h2 class="fw-boldest" style="color: #63a2c1;">Manufacturer</h2>
+                      <p>Clothing, Shoes, Bags, Wallets</p>
+                      <a href="shop.html" class="primary-btn first-bg-btn">Shop Now</a>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="home-img">
+                      <img src="/assets/img/home-img.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                    <div>
+                      <h4>Trade-in offer</h4>
+                      <h1 class="fw-boldest">Supper Value Deals</h1>
+                      <h2 class="fw-boldest" style="color: #088178;">On All Products</h2>
+                      <p>Save more with coupons & up to 70% off</p>
+                      <a href="shop.html" class="primary-btn third-bg-btn">Shop Now</a>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="home-img">
+                      <img src="/assets/img/slider-1.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                    <div>
+                      <h4>Hot promotions</h4>
+                      <h1 class="fw-boldest">Fashion Trending</h1>
+                      <h2 class="fw-boldest" style="color: #d77f7a;">Great Collection</h2>
+                      <p>Save more with coupons & up to 20% off</p>
+                      <a href="shop.html" class="primary-btn second-bg-btn">Discover Now</a>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="home-img">
+                      <img src="/assets/img/slider-2.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <i class="fi fi-rr-angle-left"></i>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <i class="fi fi-rr-angle-right"></i>
+          </button>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="section-title"><span>Men's</span> Shirts</h3>
+              <div class="categories-container">
+                <div class="owl-carousel owl-theme" id="shirts-category">
+                </div>
+              </div>
+              <script src="assets/js/shirts.js"></script>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container">
+          <div class="row" style="align-items: center;">
+            <div class="col-lg-6 col-md-12">
+              <div class="navbar-container">
+                <div class="nav">
+                  <div class="nav-item">
+                    <button class="nav-link active nav-link" id="nav-all-tab" data-bs-toggle="tab" type="button">All</button>
+                  </div>
+                  <div class="nav-item">
+                    <button class="nav-link nav-link" id="nav-popular-tab" data-bs-toggle="tab" type="button">Popular</button>
+                  </div>
+                  <div class="nav-item">
+                    <button class="nav-link nav-link" id="nav-new-tab" data-bs-toggle="tab" type="button">New added</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="product-right-header">
+                <div class="products-header">
+                  We found <div class="number-of-products"></div> items for you!
+                </div>
+                <div class="pagination">
+                  <button id="prevPage"><i class="fi fi-rr-angle-small-left"></i></button>
+                  <span id="currentPage">Page 1</span>
+                  <button id="nextPage"><i class="fi fi-rr-angle-small-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content-container">
+            <div class="tab-content row"></div>
+          </div>
+        </div>
+      </section>
+      <section class="deals">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+              <div class="deal-container" style="background-image: url('/assets/img/deals-1.jpg');">
+                <div class="deal">
+                  <div class="deal-top">
+                    <h2>Deal of the Day</h2>
+                    <h5>Limited quantities.</h5>
+                  </div>
+                  <div class="deal-content">
+                    <h2 class="deal-content-title">
+                      Summer Collection New Morden Design
+                    </h2>
+                    <div class="price">
+                      <div class="current-price">$139.00</div>
+                      <div class="last-price">$160.99</div>
+                    </div>
+                  </div>
+                  <div class="deal-bottom">
+                    <p>Hurry Up! Offer End In:</p>
+                    <div class="countdown" id="first-countdown">
+                      <div class="countdown-section">
+                        <div class="countdown-amount">
+                          <div id="days"></div>
+                        </div>
+                        <div class="countdown-period">
+                          Days
+                        </div>
+                      </div>
+                      <div class="countdown-section">
+                        <div class="countdown-amount">
+                          <div id="hours"></div>
+                        </div>
+                        <div class="countdown-period">
+                          Hours
+                        </div>
+                      </div>
+                      <div class="countdown-section">
+                        <div class="countdown-amount">
+                          <div id="minutes"></div>
+                        </div>
+                        <div class="countdown-period">
+                          Minutes
+                        </div>
+                      </div>
+                      <div class="countdown-section">
+                        <div class="countdown-amount last-countdown-amount">
+                          <div id="seconds"></div>
+                        </div>
+                        <div class="countdown-period">
+                          Seconds
+                        </div>
+                      </div>
+                    </div>
+                    <div class="secondary-btn-container">
+                      <a href="#" class="secondary-btn">Shop Now <i class="fi fi-ts-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="deal-container" style="background-image: url('/assets/img/deals-2.png');">
+                <div class="deal">
+                  <div class="deal-top">
+                    <h2>Women Clothing</h2>
+                    <h5>Shirt & Bag</h5>
+                  </div>
+                  <div class="deal-content">
+                    <h2 class="deal-content-title">
+                      Try something new on vacation
+                    </h2>
+                    <div class="price">
+                      <div class="current-price">$178.00</div>
+                      <div class="last-price">$256.99</div>
+                    </div>
+                  </div>
+                  <div class="deal-bottom">
+                    <p>Hurry Up! Offer End In:</p>
+                    <div class="countdown" id="second-countdown">
+                      <div class="countdown-section">
+                        <div class="countdown-amount">
+                          <div id="days"></div>
+                        </div>
+                        <div class="countdown-period">
+                          Days
+                        </div>
+                      </div>
+                      <div class="countdown-section">
+                        <div class="countdown-amount">
+                          <div id="hours"></div>
+                        </div>
+                        <div class="countdown-period">
+                          Hours
+                        </div>
+                      </div>
+                      <div class="countdown-section">
+                        <div class="countdown-amount">
+                          <div id="minutes"></div>
+                        </div>
+                        <div class="countdown-period">
+                          Minutes
+                        </div>
+                      </div>
+                      <div class="countdown-section">
+                        <div class="countdown-amount last-countdown-amount">
+                          <div id="seconds"></div>
+                        </div>
+                        <div class="countdown-period">
+                          Seconds
+                        </div>
+                      </div>
+                    </div>
+                    <div class="secondary-btn-container">
+                      <a href="#" class="secondary-btn">Shop Now <i class="fi fi-ts-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="new__arrivals">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3 class="section-title"><span>Men's</span> Shoes</h3>
+              <div class="categories-container">
+                <div class="owl-carousel owl-theme" id="shoes-category">
+                </div>
+                <script src="assets/js/shoes.js"></script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="showcase-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-6 col-xl-3">
+              <div class="showcase-deal-container">
+                <div class="showcase-deal">
+                  <div class="product-type">
+                    Shoes Zone
+                  </div>
+                  <div class="product-name">
+                    Save 17% on All Items
+                  </div>
+                  <div class="secondary-btn-container">
+                    <a href="#" class="secondary-btn">Shop Now <i class="fi fi-ts-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-xl-3">
+              <div class="header-showcase-container">
+                <span class="header-showcase">
+                  Deals & Outlet
+                </span>
+              </div>
+              <div class="showcase-container">
+                <div class="showcase">
+                  <a href="#" class="showcase-img-container">
+                    <img src="/assets/img/showcase-img-1.jpg" alt="">
+                  </a>
+                  <div class="showcase-content-container">
+                    <a href="#" class="showcase-name">
+                      Fish Print Patched T-shirt
+                    </a>
+                    <div class="price">
+                      <div class="current-price">
+                        $238.85
+                      </div>
+                      <div class="last-price">
+                        $245.8
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="showcase">
+                  <a href="#" class="showcase-img-container">
+                    <img src="/assets/img/showcase-img-2.jpg" alt="">
+                  </a>
+                  <div class="showcase-content-container">
+                    <a href="#" class="showcase-name">
+                      Fish Print Patched T-shirt
+                    </a>
+                    <div class="price">
+                      <div class="current-price">
+                        $238.85
+                      </div>
+                      <div class="last-price">
+                        $245.8
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="showcase">
+                  <a href="#" class="showcase-img-container">
+                    <img src="/assets/img/showcase-img-3.jpg" alt="">
+                  </a>
+                  <div class="showcase-content-container">
+                    <a href="#" class="showcase-name">
+                      Fish Print Patched T-shirt
+                    </a>
+                    <div class="price">
+                      <div class="current-price">
+                        $238.85
+                      </div>
+                      <div class="last-price">
+                        $245.8
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-xl-3">
+              <div class="header-showcase-container">
+                <span class="header-showcase">
+                  Deals & Outlet
+                </span>
+              </div>
+              <div class="showcase-container">
+                <div class="showcase">
+                  <a href="#" class="showcase-img-container">
+                    <img src="/assets/img/showcase-img-4.jpg" alt="">
+                  </a>
+                  <div class="showcase-content-container">
+                    <a href="#" class="showcase-name">
+                      Fish Print Patched T-shirt
+                    </a>
+                    <div class="price">
+                      <div class="current-price">
+                        $238.85
+                      </div>
+                      <div class="last-price">
+                        $245.8
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="showcase">
+                  <a class="showcase-img-container">
+                    <img src="/assets/img/showcase-img-5.jpg" alt="">
+                  </a>
+                  <div class="showcase-content-container">
+                    <a href="#" class="showcase-name">
+                      Fish Print Patched T-shirt
+                    </a>
+                    <div class="price">
+                      <div class="current-price">
+                        $238.85
+                      </div>
+                      <div class="last-price">
+                        $245.8
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="showcase">
+                  <a href="#" class="showcase-img-container">
+                    <img src="/assets/img/showcase-img-6.jpg" alt="">
+                  </a>
+                  <div class="showcase-content-container">
+                    <a href="#" class="showcase-name">
+                      Fish Print Patched T-shirt
+                    </a>
+                    <div class="price">
+                      <div class="current-price">
+                        $238.85
+                      </div>
+                      <div class="last-price">
+                        $245.8
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-xl-3">
+              <div class="header-showcase-container">
+                <span class="header-showcase">
+                  Deals & Outlet
+                </span>
+              </div>
+              <div class="showcase-container">
+                <div class="showcase">
+                  <a href="#" class="showcase-img-container">
+                    <img src="/assets/img/showcase-img-7.jpg" alt="">
+                  </a>
+                  <div class="showcase-content-container">
+                    <a href="#" class="showcase-name">
+                      Fish Print Patched T-shirt
+                    </a>
+                    <div class="price">
+                      <div class="current-price">
+                        $238.85
+                      </div>
+                      <div class="last-price">
+                        $245.8
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="showcase">
+                  <a href="#" class="showcase-img-container">
+                    <img src="/assets/img/showcase-img-8.jpg" alt="">
+                  </a>
+                  <div class="showcase-content-container">
+                    <a href="#" class="showcase-name">
+                      Fish Print Patched T-shirt
+                    </a>
+                    <div class="price">
+                      <div class="current-price">
+                        $238.85
+                      </div>
+                      <div class="last-price">
+                        $245.8
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="showcase">
+                  <a href="#" class="showcase-img-container">
+                    <img src="/assets/img/showcase-img-9.jpg" alt="">
+                  </a>
+                  <div class="showcase-content-container">
+                    <a href="#" class="showcase-name">
+                      Fish Print Patched T-shirt
+                    </a>
+                    <div class="price">
+                      <div class="current-price">
+                        $238.85
+                      </div>
+                      <div class="last-price">
+                        $245.8
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-xl-7">
+              <div class="row">
+                <div class="col-12 col-md-6 email-icon-container">
+                  <img src="/assets/img/icon-email.svg" alt="" class="icon-email">
+                  <h5>Sign up to Newsletter</h5>
+                </div>
+                <div class="col-12 col-md-6">
+                  <p>...and receive $25 coupon for first shopping.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-xl-5">
+              <form action="" class="form">
+                <input type="email" placeholder="Enter your email" class="email">
+                <input type="submit" class="submit" value="Subscribe">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 col-lg-4">
+            <div class="widget-container">
+              <div class="logo">
+                <img src="/assets/img/logo.svg" alt="">
+              </div>
+              <div class="product-type">
+                Contact
+              </div>
+              <div class="widget-about">
+                <div class="widget"><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</div>
+                <div class="widget"><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 678</div>
+                <div class="widget"><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</div>
+              </div>
+              <div class="social-media">
+                <div class="product-type">Follow Us</div>
+                <div class="social-media-container">
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-facebook.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-twitter.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-instagram.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-pinterest.svg" alt="">
+                  </a>
+                  <a href="#" class="icon">
+                    <img src="/assets/img/icon-youtube.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="footer-list-header">
+              About
+            </div>
+            <div class="footer-list-container">
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">About Us</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Delivery Information</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Privacy Policy</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Terms & Conditions</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Contact Us</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Support Center</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="footer-list-header">
+              My Account
+            </div>
+            <div class="footer-list-container">
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Sign In</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">View Cart</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">My Wishlist</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Track My Order</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Help</a>
+                </span>
+              </div>
+              <div class="footer-list">
+                <span class="footer-list-btn-container">
+                  <a href="#">Order</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-8 col-lg-4">
+            <div class="footer-list-header">
+              Install App
+            </div>
+            <p class="footer-text">From App Store or Google Play</p>
+            <div class="apps">
+              <a href="#" class="app">
+                <img src="/assets/img/app-store.jpg" alt="">
+              </a>
+              <a href="#" class="app">
+                <img src="/assets/img/google-play.jpg" alt="">
+              </a>
+            </div>
+            <p class="footer-text">Secured Payment Gateways</p>
+            <img src="/assets/img/payment-method.png" alt="" class="payment-img">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <script src="assets/js/countdown.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+  </body>
+</html>
